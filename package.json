@@ -1,0 +1,37 @@
+{
+  "name": "praktikum-backend-15",
+  "version": "1.0.1",
+  "description": "Проект для тренировки деплоя проекта в облако",
+  "main": "app.js",
+  "scripts": {
+    "start": "app.js",
+    "dev": "nodemon --inspect app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vadagama/praktikum-backend-13.git"
+  },
+  "author": "Oleg Krasnov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vadagama/praktikum-backend-12/issues"
+  },
+  "homepage": "https://github.com/vadagama/praktikum-backend-12#readme",
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "nodemon": "^1.19.3",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.7"
+  }
+}
